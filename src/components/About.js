@@ -13,7 +13,7 @@ export default function About(props) {
         <div className="container my-3">
             {/* {console.log(props.mode)} */}
             <div className='d-flex justify-content-center mb-5'>
-                <div className="text-center" style={{ height: "50 px", width: "480px", backgroundColor: "#2be2d9", borderRadius: "60px" }}>
+                <div className="text-center" style={{ height: "50 px", width: "550px", backgroundColor: "#2be2d9", borderRadius: "60px" }}>
                     <h1 style={{ color: mystyle.color }}>Welcome to about Section!!</h1>
                 </div>
             </div>
@@ -24,11 +24,11 @@ export default function About(props) {
                         <h5 className="card-title">Divyanshu Prakash</h5>
                         <p className="card-text">Developer and Designer</p>
                         <div className='m-2'>
-                            <a href="https://github.com/divyanshu-prakash-rx" className="btn m-1" target='blank' style={{ backgroundColor: "#B6FFFA", border: "1px solid black", borderRadius: "40%" }}><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/divyanshu-prakash-rx" className="btn m-1" target='blank' style={{ backgroundColor: "#B6FFFA", border: "1px solid black", borderRadius: "40%" }}><i className="fa-brands fa-github"></i></a>
                             <a href="mailto:medivyanshu780@gmail.com" className="btn m-1" target='blank' style={{ border: "1px solid black", backgroundColor: "#B6FFFA", borderRadius: "40%" }}>
-                                <i class="social-icons fa-solid fa-envelope "></i></a>
+                                <i className="social-icons fa-solid fa-envelope "></i></a>
                             <a href="https://www.linkedin.com/in/divyanshu-prakash-rx/" className="btn m-1" target='blank' style={{ border: "1px solid black", backgroundColor: "#B6FFFA", borderRadius: "40%" }}>
-                                <i class="fa-brands fa-linkedin"></i></a>
+                                <i className="fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
