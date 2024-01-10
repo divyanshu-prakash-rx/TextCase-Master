@@ -114,9 +114,9 @@ export default function TextForm(props) {
                 <p>Number of words={text.split(" ").filter((element) => { return element.length !== 0 }).length}</p>
                 <h2 className="text-start">Preview</h2>
                 <hr></hr>
-                <p className="text-start " style={{
-                    color: props.mode === "light" ? "black" : "white"
-                }}>{text.length > 0 ? text : <strong>"Nothing to show!!"</strong>}</p>
+                <div className="text-start card" style={{
+                    color: props.mode === "light" ? "black" : "white",backgroundColor:props.mode==="light"?"white":"black"
+                }}>{text.length > 0 ? text : <strong>"Nothing to show!!"</strong>}</div>
             </div>
         </div>
     );
