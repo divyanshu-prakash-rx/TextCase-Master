@@ -56,7 +56,7 @@ function Calculator(props) {
             <h5 style={{ color: props.mode === "dark" ? "white" : "black",fontWeight:"200" }}>My Calculator</h5>
 
 
-            <div className="mb-3" style={{ height: "100px", border: "1px solid white", backgroundColor: "white", borderRadius: "10px", fontSize: "30px",border: "1px solid ", borderColor:props.mode==="dark"?"white":"black"   }}>{result.length < 1 ? "   Start Calculating..." : result}</div>
+            <div className="mb-3" style={{ height: result.length<=25?"92px":"auto", border: "1px solid white", backgroundColor: "white", borderRadius: "10px", fontSize: "30px",border: "1px solid ", borderColor:props.mode==="dark"?"white":"black"   }}>{result.length < 1 ? "   Start Calculating..." : result}</div>
 
 
             <div className='row justify-content-between '>
