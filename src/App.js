@@ -43,6 +43,7 @@ function App() {
       document.body.style.backgroundColor = "white"
       Alertt("Light Mode has been enabled", "success")
     }
+    //some changes
 
 
   }
@@ -53,15 +54,13 @@ function App() {
         <Navbar title="TextCase Master" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <Routes>
-
+          
           <Route path="/" element={<TextForm mode={mode} Alertt={Alertt} />} />
-          {/* <Route path="/" element={<Home mode={mode} Alertt={Alertt} />} /> */}
           <Route path="/about" element={<About mode={mode} />} />
           <Route path="/Calculator" element={<Calculator mode={mode} />} />
-        </Routes>
+        </Routes >
 
-      </Router>
-      {/* <About mode={mode}/> */}
+      </Router >
     </>
   );
 }
