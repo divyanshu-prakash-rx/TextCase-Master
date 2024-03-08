@@ -46,6 +46,9 @@ To run TextCase Master locally on your machine, follow these steps:
 
 Contributions to TextCase Master are welcome! If you have any ideas for new features, improvements, or bug fixes, please open an issue or submit a pull request.
 
+##License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## Acknowledgements
 
 - This project was inspired by the need for a simple yet powerful tool for text manipulation and basic calculations.
