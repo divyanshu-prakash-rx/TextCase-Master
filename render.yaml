@@ -1,0 +1,2 @@
+services:
+    buildCommand: npm install --legacy-peer-deps
