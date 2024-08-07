@@ -57,7 +57,7 @@ function App() {
           
           <Route path="/" element={<TextForm mode={mode} Alertt={Alertt} />} />
           <Route path="/about" element={<About mode={mode} />} />
-          <Route path="/Calculator" element={<Calculator mode={mode} />} />
+          <Route path="/calculator" element={<Calculator mode={mode} />} />
         </Routes >
 
       </Router >
